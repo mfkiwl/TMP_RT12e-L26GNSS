@@ -1,0 +1,34 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4500 3150 1650 1250
+U 5FCB9C44
+F0 "MTi-670" 50
+F1 "MTi-670.sch" 50
+$EndSheet
+$Sheet
+S 6950 3700 1250 650 
+U 5FCC33D8
+F0 "GNSS" 50
+F1 "GNSS.sch" 50
+$EndSheet
+$Sheet
+S 6950 2300 1250 900 
+U 5FCD0122
+F0 "STM32" 50
+F1 "STM32.sch" 50
+$EndSheet
+$EndSCHEMATC

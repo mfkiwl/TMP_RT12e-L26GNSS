@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F0:STM32F030C6Tx U?
+U 1 1 5FCD069D
+P 5600 4000
+F 0 "U?" H 5600 2311 50  0000 C CNN
+F 1 "STM32F030C6Tx" H 5600 2220 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5100 2500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCD2942
+P 2800 1950
+F 0 "#PWR?" H 2800 1800 50  0001 C CNN
+F 1 "+3.3V" H 2815 2123 50  0000 C CNN
+F 2 "" H 2800 1950 50  0001 C CNN
+F 3 "" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCD351D
+P 4800 2150
+F 0 "C?" H 4915 2196 50  0000 L CNN
+F 1 "100nF" H 4915 2105 50  0000 L CNN
+F 2 "" H 4838 2000 50  0001 C CNN
+F 3 "~" H 4800 2150 50  0001 C CNN
+	1    4800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCD410B
+P 4350 2150
+F 0 "C?" H 4465 2196 50  0000 L CNN
+F 1 "100nF" H 4465 2105 50  0000 L CNN
+F 2 "" H 4388 2000 50  0001 C CNN
+F 3 "~" H 4350 2150 50  0001 C CNN
+	1    4350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCD472D
+P 3900 2150
+F 0 "C?" H 4015 2196 50  0000 L CNN
+F 1 "100nF" H 4015 2105 50  0000 L CNN
+F 2 "" H 3938 2000 50  0001 C CNN
+F 3 "~" H 3900 2150 50  0001 C CNN
+	1    3900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCD4CC5
+P 3450 2150
+F 0 "C?" H 3565 2196 50  0000 L CNN
+F 1 "100nF" H 3565 2105 50  0000 L CNN
+F 2 "" H 3488 2000 50  0001 C CNN
+F 3 "~" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCD511B
+P 2950 2150
+F 0 "C?" H 3065 2196 50  0000 L CNN
+F 1 "1uF" H 3065 2105 50  0000 L CNN
+F 2 "" H 2988 2000 50  0001 C CNN
+F 3 "~" H 2950 2150 50  0001 C CNN
+	1    2950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FCD593E
+P 3200 2000
+F 0 "L?" V 3390 2000 50  0000 C CNN
+F 1 "L" V 3299 2000 50  0000 C CNN
+F 2 "" H 3200 2000 50  0001 C CNN
+F 3 "~" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 1950 2800 2000
+Wire Wire Line
+	2800 2000 2950 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	2950 2000 3050 2000
+Wire Wire Line
+	3350 2000 3450 2000
+Wire Wire Line
+	5500 2000 5500 2400
+Connection ~ 3450 2000
+Wire Wire Line
+	3450 2000 3900 2000
+Connection ~ 3900 2000
+Wire Wire Line
+	3900 2000 4350 2000
+Connection ~ 4350 2000
+Wire Wire Line
+	4350 2000 4800 2000
+Connection ~ 4800 2000
+Wire Wire Line
+	4800 2000 5500 2000
+Wire Wire Line
+	5500 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 2400
+Connection ~ 5500 2000
+Wire Wire Line
+	5600 2000 5700 2000
+Wire Wire Line
+	5700 2000 5700 2400
+Connection ~ 5600 2000
+Wire Wire Line
+	5700 2000 5800 2000
+Wire Wire Line
+	5800 2000 5800 2400
+Connection ~ 5700 2000
+Wire Wire Line
+	4800 2300 4350 2300
+Wire Wire Line
+	2800 2300 2800 2400
+Connection ~ 2950 2300
+Wire Wire Line
+	2950 2300 2800 2300
+Connection ~ 3450 2300
+Wire Wire Line
+	3450 2300 2950 2300
+Connection ~ 3900 2300
+Wire Wire Line
+	3900 2300 3450 2300
+Connection ~ 4350 2300
+Wire Wire Line
+	4350 2300 3900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD7C62
+P 2800 2400
+F 0 "#PWR?" H 2800 2150 50  0001 C CNN
+F 1 "GND" H 2805 2227 50  0000 C CNN
+F 2 "" H 2800 2400 50  0001 C CNN
+F 3 "" H 2800 2400 50  0001 C CNN
+	1    2800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5FCD83D6
+P 4200 2800
+F 0 "J?" H 4200 2450 50  0000 C CNN
+F 1 "BOOT_SELECTOR" H 4200 2550 50  0000 C CNN
+F 2 "" H 4200 2800 50  0001 C CNN
+F 3 "~" H 4200 2800 50  0001 C CNN
+	1    4200 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCDFB5A
+P 4550 2650
+F 0 "#PWR?" H 4550 2500 50  0001 C CNN
+F 1 "+3.3V" H 4565 2823 50  0000 C CNN
+F 2 "" H 4550 2650 50  0001 C CNN
+F 3 "" H 4550 2650 50  0001 C CNN
+	1    4550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FCDFF72
+P 4700 2800
+F 0 "R?" V 4600 2800 50  0000 C CNN
+F 1 "10K" V 4550 2800 50  0000 C CNN
+F 2 "" V 4630 2800 50  0001 C CNN
+F 3 "~" H 4700 2800 50  0001 C CNN
+	1    4700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCE1995
+P 4550 2950
+F 0 "#PWR?" H 4550 2700 50  0001 C CNN
+F 1 "GND" H 4555 2777 50  0000 C CNN
+F 2 "" H 4550 2950 50  0001 C CNN
+F 3 "" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2700 4550 2700
+Wire Wire Line
+	4550 2700 4550 2650
+Wire Wire Line
+	4550 2800 4400 2800
+Wire Wire Line
+	4400 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 2950
+Wire Wire Line
+	4850 2800 5000 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FCE3861
+P 5100 5750
+F 0 "#PWR?" H 5100 5500 50  0001 C CNN
+F 1 "GND" H 5105 5577 50  0000 C CNN
+F 2 "" H 5100 5750 50  0001 C CNN
+F 3 "" H 5100 5750 50  0001 C CNN
+	1    5100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5750 5100 5650
+Wire Wire Line
+	5100 5650 5500 5650
+Wire Wire Line
+	5500 5650 5500 5600
+Wire Wire Line
+	5500 5650 5600 5650
+Wire Wire Line
+	5600 5650 5600 5600
+Connection ~ 5500 5650
+Wire Wire Line
+	5600 5650 5700 5650
+Wire Wire Line
+	5700 5650 5700 5600
+Connection ~ 5600 5650
+Text Label 6200 5200 0    50   ~ 0
+SWDIO
+Text Label 6200 5300 0    50   ~ 0
+SWCLK
+Text GLabel 4950 2600 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	5000 2600 4950 2600
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5FCEA4D2
+P 7000 5700
+F 0 "J?" V 7096 5512 50  0000 R CNN
+F 1 "SWD" V 7005 5512 50  0000 R CNN
+F 2 "" H 7000 5700 50  0001 C CNN
+F 3 "~" H 7000 5700 50  0001 C CNN
+	1    7000 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 5200 6900 5400
+Wire Wire Line
+	6200 5200 6900 5200
+Wire Wire Line
+	7000 5300 7000 5400
+Wire Wire Line
+	6200 5300 7000 5300
+Text GLabel 7100 5400 1    50   Input ~ 0
+NRST
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FCF5363
+P 6650 5900
+F 0 "#PWR?" H 6650 5750 50  0001 C CNN
+F 1 "+3.3V" H 6665 6073 50  0000 C CNN
+F 2 "" H 6650 5900 50  0001 C CNN
+F 3 "" H 6650 5900 50  0001 C CNN
+	1    6650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5900 6650 5950
+Wire Wire Line
+	6650 5950 6900 5950
+Wire Wire Line
+	6900 5950 6900 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5FCF6A03
+P 7250 5950
+F 0 "#PWR?" H 7250 5700 50  0001 C CNN
+F 1 "GND" H 7255 5777 50  0000 C CNN
+F 2 "" H 7250 5950 50  0001 C CNN
+F 3 "" H 7250 5950 50  0001 C CNN
+	1    7250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5950 7100 5950
+Wire Wire Line
+	7000 5950 7000 5900
+Wire Wire Line
+	7100 5900 7100 5950
+Connection ~ 7100 5950
+Wire Wire Line
+	7100 5950 7000 5950
+Text GLabel 7650 4450 0    50   Input ~ 0
+USART1_RX
+Text GLabel 7650 4600 0    50   Input ~ 0
+USART1_Tx
+Text HLabel 7900 4450 2    50   Input ~ 0
+GNSS_USART_Rx
+Text HLabel 7900 4600 2    50   Input ~ 0
+GNSS_USART_Tx
+Wire Wire Line
+	7650 4450 7900 4450
+Wire Wire Line
+	7650 4600 7900 4600
+Text Notes 7050 4350 0    50   ~ 0
+Na poziomie dokonywania layotu płytki należy\nwybrać najbardziej pasujący z dostępnych\n
+Text GLabel 7650 4750 0    50   Input ~ 0
+USART2_RX
+Text GLabel 7650 4900 0    50   Input ~ 0
+USART2_Tx
+Text HLabel 7900 4750 2    50   Input ~ 0
+MTi_USART_Rx
+Text HLabel 7900 4900 2    50   Input ~ 0
+MTi_USART_Tx
+Wire Wire Line
+	7650 4900 7900 4900
+Wire Wire Line
+	7650 4750 7900 4750
+Text Notes 5200 6000 0    50   ~ 0
+Te piny mnie skonfundowały\nw dokumentacji #NEED_CHECK
+$EndSCHEMATC
