@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MyLibraries)(type Legacy)(uri ${KIPRJMOD}/MyLibraries.lib)(options "")(descr ""))
+  (lib (name L26)(type Legacy)(uri ${KIPRJMOD}/Schematy/L26.lib)(options "")(descr ""))
+)
